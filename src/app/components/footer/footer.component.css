@@ -1,0 +1,49 @@
+.container-fluid{
+    /* background: linear-gradient(180deg, white, #6e6363, #5a5454, rgb(255, 255, 255)); */
+    background-color: rgb(0, 0, 0);
+    /* color: white; */
+    /* margin-top: 10px; */
+}
+
+hr{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    /* border-top: 5px solid rgb(62, 244, 244); */
+     border-top: 5px solid rgb(62, 244, 244);
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* line-height: 10px; */
+    text-align: center;
+}
+
+.footer .copyright p{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(194, 194, 197);
+}
+
+.footer .credits{
+    font-size: 15px;
+    color: rgb(179, 179, 180);
+}
+
+.footer .credits a{
+    font-size: larger;
+    font-weight: 700;
+    -webkit-text-fill-color: rgb(98, 138, 238);
+    text-decoration-skip-ink: initial;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 700;
+
+}
